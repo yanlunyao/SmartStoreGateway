@@ -1,0 +1,8 @@
+#!/bin/sh
+
+filename=/gl/etc/passcode
+
+if [ ! -f $filename ]; then
+    echo `head -n 1 /dev/urandom | md5sum | cut -b -8` > $filename
+fi
+

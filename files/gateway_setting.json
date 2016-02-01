@@ -1,0 +1,14 @@
+{
+	"http_server":	"121.199.21.14",
+	"http_port":	8686,
+	"mt_server1":	"",
+	"mt_port1":	1883,
+	"mt_server2":	"",
+	"mt_port2":	1883,
+	"passcode":	"FnGzv6u4",
+	"mac":	"",
+	"did":	"",
+	"productkey":	"abcdefghijklmnopqrstuvwxyz",
+	"sn":	"",
+	"duration" : 120
+}

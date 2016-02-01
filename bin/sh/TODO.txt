@@ -1,0 +1,7 @@
+1. 时间同步问题
+gl-time.service  时间间隔设置为5s
+启动后判断是否存在  /tmp/time_flag
+不存在则尝试同步时间，同步成功后则创建 /tmp/time_flag，值为0
+存在 /tmp/time_flag 的情况下，每次触发+1，为N时同步时间
+
+2. 
